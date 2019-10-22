@@ -9,9 +9,9 @@
     "difficulty": 2,
     "time": "1 h 40 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 50 ], [ "oxy_torch", 10 ] ] ],
-    "components": [ [ [ "steel_chunk", 1 ], [ "scrap", 3 ] ] ]
+    "using": [ [ "blacksmithing_standard", 1 ], [ "steel_standard", 1 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "swage", -1 ] ] ]
   },
   {
     "type": "recipe",
@@ -384,10 +384,10 @@
     "skills_required": [ "gun", 2 ],
     "difficulty": 5,
     "time": "45 m",
+    "using": [ [ "blacksmithing_standard", 2 ], [ "steel_standard", 2 ] ],
     "book_learn": [ [ "manual_shotgun", 2 ], [ "manual_rifle", 2 ], [ "manual_smg", 2 ], [ "manual_pistol", 3 ], [ "recipe_bullets", 2 ] ],
-    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 50 ], [ "oxy_torch", 10 ] ] ],
-    "components": [ [ [ "scrap", 6 ] ], [ [ "element", 2 ], [ "hotplate", 1 ] ], [ [ "cable", 2 ] ] ]
+    "tools": [ [ [ "swage", -1 ] ] ],
+    "components": [ [ [ "element", 2 ], [ "hotplate", 1 ] ], [ [ "cable", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -1315,8 +1315,9 @@
     "difficulty": 3,
     "time": "30 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 50 ], [ "oxy_torch", 10 ] ] ],
+    "using": [ [ "blacksmithing_standard", 2 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "scrap", 1 ] ] ]
   },
   {
@@ -1414,15 +1415,13 @@
     "difficulty": 6,
     "time": "3 h",
     "autolearn": true,
-    "using": [ [ "forging_standard", 10 ], [ "steel_tiny", 2 ] ],
+    "using": [ [ "blacksmithing_standard", 10 ], [ "steel_tiny", 2 ] ],
     "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
       { "id": "CHISEL", "level": 3 },
       { "id": "SAW_M", "level": 2 },
       { "id": "CUT", "level": 1 }
     ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "tools": [ [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "plastic_chunk", 2 ], [ "2x4", 1 ], [ "stick", 2 ] ] ]
   },
   {
@@ -2095,14 +2094,9 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "forge", 150 ], [ "oxy_torch", 30 ] ]
-    ],
-    "components": [ [ [ "scrap", 2 ] ] ]
+    "using": [ [ "blacksmithing_standard", 5 ], [ "steel_standard", 1 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "swage", -1 ] ] ]
   },
   {
     "type": "recipe",
@@ -2413,9 +2407,7 @@
       [ "textbook_armeast", 5 ],
       [ "textbook_armwest", 5 ]
     ],
-    "using": [ [ "forging_standard", 4 ], [ "steel_standard", 1 ] ],
-    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ] ]
+    "using": [ [ "blacksmithing_standard", 4 ], [ "steel_standard", 1 ] ]
   },
   {
     "type": "recipe",
@@ -2433,9 +2425,9 @@
       [ "textbook_armeast", 5 ],
       [ "textbook_armwest", 5 ]
     ],
-    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "forge", 250 ], [ "oxy_torch", 50 ] ] ],
-    "components": [ [ [ "steel_lump", 2 ], [ "steel_chunk", 8 ], [ "scrap", 24 ] ] ]
+    "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 8 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ] ]
   },
   {
     "type": "recipe",
@@ -2446,9 +2438,10 @@
     "difficulty": 5,
     "time": "2 h",
     "autolearn": true,
+    "using": [ [ "forgeing_standard", 12 ], [ "steel_standard", 4 ] ],
     "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "forge", 250 ], [ "oxy_torch", 50 ] ] ],
-    "components": [ [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 12 ] ], [ [ "2x4", 1 ], [ "stick", 2 ] ] ]
+    "tools": [ [ [ "tongs", -1 ] ] ],
+    "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ] ]
   },
   {
     "type": "recipe",
