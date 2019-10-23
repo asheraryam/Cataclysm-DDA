@@ -2438,7 +2438,7 @@
     "difficulty": 5,
     "time": "2 h",
     "autolearn": true,
-    "using": [ [ "forgeing_standard", 12 ], [ "steel_standard", 4 ] ],
+    "using": [ [ "forging_standard", 12 ], [ "steel_standard", 4 ] ],
     "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 2 } ],
     "tools": [ [ [ "tongs", -1 ] ] ],
     "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ] ]
